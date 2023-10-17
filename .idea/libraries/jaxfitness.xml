@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jaxfitness">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jaxfitness.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
