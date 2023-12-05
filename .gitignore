@@ -446,4 +446,5 @@ zsdoc/data
 # 2023.12.05 추가
 application.yml
 application.properties
-*.idea
+.idea
+.gradle
