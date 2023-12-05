@@ -448,3 +448,6 @@ application.yml
 application.properties
 .idea
 .gradle
+HELP.md
+build/
+out/
