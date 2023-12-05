@@ -1,6 +1,7 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+<<<<<<< HEAD
 
 ### git ignore 작성 참고 :: https://www.toptal.com/developers/gitignore ###
 # Created by https://www.toptal.com/developers/gitignore/api/intellij,java,macos,windows
@@ -205,3 +206,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,java,macos,windows
+=======
+>>>>>>> 9699b2e8425bd83c3d92d0b987c96bed874ad06e
