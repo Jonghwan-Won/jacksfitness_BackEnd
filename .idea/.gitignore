@@ -1,11 +1,5 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-<<<<<<< HEAD
-
-### git ignore 작성 참고 :: https://www.toptal.com/developers/gitignore ###
-# Created by https://www.toptal.com/developers/gitignore/api/intellij,java,macos,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=intellij,java,macos,windows
+# Created by https://www.toptal.com/developers/gitignore/api/java,intellij,macos,windows,visualstudiocode,vim,linux,zsh,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,intellij,macos,windows,visualstudiocode,vim,linux,zsh,react
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -146,6 +140,21 @@ fabric.properties
 hs_err_pid*
 replay_pid*
 
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
 ### macOS ###
 # General
 .DS_Store
@@ -179,6 +188,60 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+### react ###
+.DS_*
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -205,6 +268,40 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/intellij,java,macos,windows
-=======
->>>>>>> 9699b2e8425bd83c3d92d0b987c96bed874ad06e
+### Zsh ###
+# Zsh compiled script + zrecompile backup
+*.zwc
+*.zwc.old
+
+# Zsh completion-optimization dumpfile
+*zcompdump*
+
+# Zsh history
+.zsh_history
+
+# Zsh sessions
+.zsh_sessions
+
+# Zsh zcalc history
+.zcalc_history
+
+# A popular plugin manager's files
+._zinit
+.zinit_lstupd
+
+# zdharma/zshelldoc tool's files
+zsdoc/data
+
+# robbyrussell/oh-my-zsh/plugins/per-directory-history plugin's files
+# (when set-up to store the history in the local directory)
+.directory_history
+
+# MichaelAquilina/zsh-autoswitch-virtualenv plugin's files
+# (for Zsh plugins using Python)
+.venv
+
+# Zunit tests' output
+/tests/_output/*
+!/tests/_output/.gitkeep
+
+# End of https://www.toptal.com/developers/gitignore/api/java,intellij,macos,windows,visualstudiocode,vim,linux,zsh,react
